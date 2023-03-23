@@ -9,4 +9,6 @@ def main(n, x):
     Returns:
         int: the value of the expression
     """
-    return
+    x = x**n + n**x
+    return x
+print(main(3, 6))
