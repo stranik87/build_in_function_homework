@@ -9,4 +9,7 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    a = (3*(y**(1/2))) + x**(2/3)
+    return round(a , 1)
+print(main(8, 4))
+
